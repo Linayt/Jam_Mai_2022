@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1358b833-eb3f-4d09-99c1-184985920f7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-HighQuality.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-LowQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-LowQuality.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-MediumQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultSettings/Settings/UniversalRP-MediumQuality.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_gray.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_gray.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_purple.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_purple.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_white.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_white.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Materials/Transparent/m_matte_yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam_Mai2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam_Mai2022/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Core/Editor/Physics/BumperEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameKit/Core/Editor/Physics/BumperEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Core/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameKit/Core/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameKit/Scripts/Physics/Bumper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameKit/Scripts/Physics/Bumper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProjectData/Prefab/Gameplay/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectData/Prefab/Gameplay/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectData/Scene/GymLucas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectData/Scene/GymLucas.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652001082415</updated>
-      <workItem from="1652001092344" duration="2204000" />
+      <workItem from="1652001092344" duration="7128000" />
     </task>
     <servers />
   </component>

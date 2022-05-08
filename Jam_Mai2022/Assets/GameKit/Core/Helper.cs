@@ -76,6 +76,7 @@ public static class Helper
 	public static bool GroundCheck (Vector3 from, Vector3 offset, Transform t, float radius, LayerMask wallAvoidanceLayers)
 	{
 		Vector3 checkPos = from + offset.WorldToLocalSpace(t);
+
 		return Physics.CheckSphere(checkPos, radius, wallAvoidanceLayers);
 	}
 
