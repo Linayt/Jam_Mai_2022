@@ -13,7 +13,7 @@ public class CrownManager : MonoBehaviour
         DisplayCrownAmount();
     }
 
-    void DisplayCrownAmount()
+    private void DisplayCrownAmount()
     {
         debugCrownAmountText.text = crownAmount.ToString();
     }

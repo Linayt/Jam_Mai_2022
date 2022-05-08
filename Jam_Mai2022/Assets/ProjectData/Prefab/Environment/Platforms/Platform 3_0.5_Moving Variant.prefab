@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1188090710891161274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104442069876604096, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398330932410693762, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_Name
+      value: Platform 3_0.5_Moving
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398330932410693762, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453613861155778196, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548266672298717369, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548266672298717369, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1064
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357670412758422607, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+--- !u!1 &3545572547576749624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2398330932410693762, guid: ec154ea96140df143a04dfd49585109e, type: 3}
+  m_PrefabInstance: {fileID: 1188090710891161274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252366187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545572547576749624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8bae210bd34ba9438faa6c3904a5078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints:
+  - pointName: Patrol Point 1
+    pointPosition: {x: -10, y: 4, z: -0.5}
+    waitTimeAtPoint: 0
+    pointColor: {r: 0, g: 0, b: 1, a: 1}
+  - pointName: Patrol Point 1 (Copy)
+    pointPosition: {x: -5, y: 4, z: -0.5}
+    waitTimeAtPoint: 0
+    pointColor: {r: 0, g: 0, b: 1, a: 1}
+  areCoordinatesLocal: 0
+  moveSpeed: 5
+  minDistance: 0.1
+  loop: 1
+  lookAtTargetPos: 0
+  smoothLookAt: 0
+  rotateSpeed: 5
+  lockXRotation: 1
+  lockYRotation: 0
+  lockZRotation: 1
