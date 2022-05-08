@@ -517,8 +517,8 @@ MonoBehaviour:
   attackLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  attackMinPower: 0
-  attackMaxPower: 0
+  attackMinPower: 1
+  attackMaxPower: 10
   attackPowerCurve:
     serializedVersion: 2
     m_Curve:
@@ -543,7 +543,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  attackBumpDirectionYOffset: 1
+  attackBumpDirectionYOffset: 2
   attackMaxTimeCharge: 1
   chargeSpeed: 1
   attackCooldown: 0.5

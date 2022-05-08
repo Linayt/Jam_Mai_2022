@@ -35,7 +35,8 @@ public class PlayerMover : MonoBehaviour
     bool canMove;
     bool isJumping;
 
-    float dragvelocity;
+    float dragvelocityX;
+    float dragvelocityY;
 
     PlayerController pController;
     internal void Initialize()
@@ -55,12 +56,17 @@ public class PlayerMover : MonoBehaviour
 
         isGrounded = Physics.CheckSphere(groundCheckOrigin.position, groundCheckRadius, groundCheckMask);
 
-        if (isGrounded)
+        if (moveDirec.magnitude > 0)
         {
-            velocity.y = -2f;
+            transform.LookAt(transform.position + moveDirec);
+        }
+
+        if (isGrounded && !isJumping)
+        {
+            velocity.y = Mathf.SmoothDamp(velocity.y, -2f, ref dragvelocityY, dragValue);
             midAirJumpCount = nbMidAirJump;
         }
-        else
+        else if (!isJumping)
         {
             velocity.y += gravityValue * Time.deltaTime;
         }
@@ -98,7 +104,8 @@ public class PlayerMover : MonoBehaviour
         while (timer < jumpDuration)
         {
             timer += Time.deltaTime;
-            float ratio = timer.Ratio(jumpDuration);
+            float ratio = timer/jumpDuration;
+            Debug.Log(ratio);
             velocity.y = jumpCurve.Evaluate(ratio) * jumpForce;
             yield return null;
         }
@@ -120,7 +127,7 @@ public class PlayerMover : MonoBehaviour
 
     public void VelocityDrag()
     {
-        velocity.x = Mathf.SmoothDamp(velocity.x, 0, ref dragvelocity, dragValue);
+        velocity.x = Mathf.SmoothDamp(velocity.x, 0, ref dragvelocityX, dragValue);
 
     }
 

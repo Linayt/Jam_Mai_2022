@@ -46,9 +46,11 @@ public class PlayerController : MonoBehaviour, IHittable
 
         yield return Helper.GetWait(ratio);
     }
-    public void OnHit(float ratio,Vector3 directionHit)
+    public void OnHit(float ratio,Vector3 directionHit, float forceHit)
     {
         Debug.Log(gameObject.name + " is Hit !", this);
+        pMover.AddExternalForce(directionHit * forceHit, false);
+
         if (!animator) return;
 
         animator.SetTrigger(onHitAnimatorTrigger);

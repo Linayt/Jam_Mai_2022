@@ -73,7 +73,7 @@ public class PlayerAttack : MonoBehaviour
     private void CheckAttackCollision(float ratio)
     {
         float attackRadius = Helper.CurvedLerp(attackMinRange, attackMaxRange, attackRangeCurve, ratio);
-
+        float attackPower = Helper.CurvedLerp(attackMinPower, attackMaxPower, attackPowerCurve, chargeValue);
         Collider[] hits = Physics.OverlapSphere(attackCollisionOrigin.position, attackRadius, attackLayerMask);
         if (hits.Length == 0) return;
         foreach (var hit in hits)
@@ -82,7 +82,8 @@ public class PlayerAttack : MonoBehaviour
             if (hitable != null)
             {
                 Vector3 hitDirection = VectorExtensions.Towards(attackHitDirectionOrigin.position, hit.transform.position + new Vector3(0, attackBumpDirectionYOffset, 0), true);
-                hitable.OnHit(ratio, hitDirection);
+                Debug.Log(hitDirection);
+                hitable.OnHit(ratio, hitDirection,attackPower);
             }
         }
         
